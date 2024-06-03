@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url(fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    margin: 10px;
+    padding: 0;
+}
+
+.box{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.image{
+    width: 250px;
+    height: 400px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
